@@ -1,0 +1,30 @@
+# Dependencias
+node_modules/
+
+# Build (si existiera)
+dist/
+build/
+
+# Archivos generados
+*.min.css
+*.min.js
+
+# Assets grandes
+images/
+videos/
+# Variables de entorno
+.env
+# Editor
+.vscode/
+.idea/  
+# Logs
+*.log   
+# Archivos temporales   
+*.tmp
+*.swp   
+# Sistema
+.DS_Store
+Thumbs.db   
+# IDEs
+*.sublime-project
+*.sublime-workspace 
