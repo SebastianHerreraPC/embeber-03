@@ -3,12 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./public/assets/images/icon-zorro.ico" />
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Embeber</title>
   </head>
   <body>
     <header class="header">
-      <nav class="navbar"></nav>
+      <nav class="navbar">
+        <img
+          src="./public/assets/images/zorro.png"
+          alt="logo"
+          class="navbar__logo"
+        />
+        <div class="navbar__container">
+          <ul class="navbar__items">
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Recetas</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Reserva una Mesa</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Contáctanos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="header__container">
+        <div class="header__texts">
+          <h1 class="header__title">Pausa, disfruta y saborea el momento</h1>
+          <p class="header__subtitle">
+            Café recién hecho, repostería artesanal y un ambiente creado para
+            que te quedes un poco más. Aquí cada receta tiene historia y cada
+            visita se siente como en casa.
+          </p>
+        </div>
+
+        <img
+          src="./public/assets/images/torta-de-cumpleanos.png"
+          alt="pastel"
+          class="header__img"
+        />
+      </div>
+
+      <div class="header__footer">
+        <div class="header__footer_info">
+          <p class="header__footer_text">Horario</p>
+          <p class="header__footer_text">Lunes a Viernes (10:00 19:00)</p>
+          <p class="header__footer_text">Sábado a Domingo (11:00 18:00)</p>
+        </div>
+        <div class="header__footer_info header__footer_info--location">
+          México
+        </div>
+      </div>
     </header>
     <main class="main">
       <section class="recetas"></section>
