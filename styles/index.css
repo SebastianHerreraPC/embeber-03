@@ -223,8 +223,9 @@
 }
 .registro__terms {
   display: flex;
-  justify-content: space-around;
+  margin: auto;
   align-items: center;
+  gap: 12px;
   border: 1px solid red;
 }
 .registro__checkbox {
