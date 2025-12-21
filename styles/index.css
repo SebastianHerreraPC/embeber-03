@@ -139,7 +139,6 @@
   padding: 10px;
   background-color: #4a90e2;
   color: white;
-  border: 1px solid red;
 }
 
 .registro__title {
@@ -147,44 +146,34 @@
   font-size: 44px;
   line-height: 52px;
   margin: 100px auto 80px;
-  border: 1px solid red;
 }
 .registro__form-container {
-  border: 1px solid red;
 }
 .registro__form {
   max-width: 385px;
-  border: 1px solid red;
 }
 .registro__fieldset {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  border: 1px solid red;
 }
 .registro__field {
   display: flex;
   gap: 8px;
   flex-direction: column;
-  border: 1px solid red;
 }
 .registro__label {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  border: 1px solid red;
 }
 .registro__label--name {
-  border: 1px solid red;
 }
 .registro__label--persons {
-  border: 1px solid red;
 }
 .registro__label--date {
-  border: 1px solid red;
 }
 .registro__label--email {
-  border: 1px solid red;
 }
 .registro__input {
   font-weight: normal;
@@ -192,23 +181,17 @@
   line-height: 30px;
   height: 60px;
   min-width: 385px;
-
-  border: 1px solid red;
 }
 .registro__input::placeholder {
   color: #838383;
 }
 .registro__input--name {
-  border: 1px solid red;
 }
 .registro__input--persons {
-  border: 1px solid red;
 }
 .registro__input--date {
-  border: 1px solid red;
 }
 .registro__input--email {
-  border: 1px solid red;
 }
 .registro__button {
   font-weight: 500;
@@ -219,20 +202,16 @@
   height: 60px;
   color: white;
   background-color: #2f80ed;
-  border: 1px solid red;
 }
 .registro__terms {
   display: flex;
   margin: auto;
   align-items: center;
   gap: 12px;
-  border: 1px solid red;
 }
 .registro__checkbox {
   height: 12px;
   width: 12px;
-  border: 1px solid red;
 }
 .registro__checkbox-accept {
-  border: 1px solid red;
 }
