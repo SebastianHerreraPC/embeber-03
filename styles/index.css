@@ -155,6 +155,7 @@
 .registro__fieldset {
   display: flex;
   flex-direction: column;
+  border: none;
   gap: 20px;
 }
 .registro__field {
@@ -194,6 +195,7 @@
 .registro__input--email {
 }
 .registro__button {
+  border: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
