@@ -59,8 +59,116 @@
       </div>
     </header>
     <main class="main">
-      <section class="recetas"></section>
-      <section class="registro"></section>
+      <section class="recetas">
+        <div class="recetas__titulo">
+          <h2 class="recetas__titulo-text">Recetas</h2>
+        </div>
+
+        <div class="recetas__subtitulo">
+          <p class="recetas__subtitulo-text">
+            Mira las recetas que reunimos y elabora tus propios snacks
+          </p>
+        </div>
+
+        <div class="recetas__videos">
+          <div class="recetas__video">
+            <div class="recetas__video-iframe">
+              <iframe
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=a9-wC6qWEaCt7oMY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recetas__video-caption">Receta Aeropress ~15 min</p>
+            </div>
+          </div>
+
+          <div class="recetas__video">
+            <div class="recetas__video-iframe">
+              <iframe
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=qvlHeGKJ1SuN0rFV"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recetas__video-caption">
+                Receta en cafetera Francesa ~15 min
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="registro">
+        <h2 class="registro__title">Reserva una Mesa</h2>
+        <div class="registro__form-container">
+          <form class="registro__form">
+            <fieldset class="registro__fieldset">
+              <div class="registro__field">
+                <label for="name" class="registro__label registro__label--name"
+                  >Nombre</label
+                ><input
+                  id="name"
+                  type="text"
+                  class="registro__input registro__input--name"
+                  placeholder="Tu nombre"
+                />
+              </div>
+              <div class="registro__field">
+                <label
+                  for="persons"
+                  class="registro__label registro__label--persons"
+                  >Numero de Comensales</label
+                ><input
+                  id="persons"
+                  type="number"
+                  class="registro__input registro__input--persons"
+                  placeholder="1-8"
+                />
+              </div>
+              <div class="registro__field">
+                <label for="date" class="registro__label registro__label--date"
+                  >Fecha</label
+                ><input
+                  id="date"
+                  type="date"
+                  class="registro__input registro__input--date"
+                />
+              </div>
+              <div class="registro__field">
+                <label
+                  for="email"
+                  class="registro__label registro__label--email"
+                  >Email</label
+                ><input
+                  id="email"
+                  type="email"
+                  class="registro__input registro__input--email"
+                  placeholder="email@email.com"
+                />
+              </div>
+              <button type="submit" class="registro__button">
+                Reserva una Mesa
+              </button>
+
+              <div class="registro__terms">
+                <input id="terms" type="checkbox" class="registro__checkbox" />
+                <label for="terms" class="registro__checkbox-accept"
+                  >Acepto los términos y condiciones</label
+                >
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
     </main>
   </body>
 </html>
