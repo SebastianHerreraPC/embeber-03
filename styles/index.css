@@ -224,7 +224,6 @@
   position: relative;
   background-color: #0b1c2d;
   color: white;
-  border: 1px solid red;
   overflow: hidden;
 }
 
@@ -233,33 +232,28 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
   margin: 60px 80px 108px 80px;
 }
 
 .footer__logo {
   z-index: 1;
 
-  border: 1px solid red;
   align-self: flex-start;
   height: 39px;
 }
 
 .footer__social {
-  border: 1px solid red;
 }
 
 .footer__social-heading {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  border: 1px solid red;
 }
 
 .footer__social-list {
   list-style: none;
   color: white;
-  border: 1px solid red;
 }
 
 .footer__social-item {
@@ -269,18 +263,15 @@
   align-items: center;
   gap: 5px;
   font-size: 13px;
-  border: 1px solid red;
 }
 
 .footer__social-icon {
   height: 15px;
   width: 15px;
-  border: 1px solid red;
 }
 
 .footer__social-link {
   color: white;
-  border: 1px solid red;
 }
 .footer__copy {
   font-size: 13px;
